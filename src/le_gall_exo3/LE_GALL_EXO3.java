@@ -1,6 +1,7 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+Exo 0
+LE GALL
+27/09/2021
  */
 package le_gall_exo3;
 
@@ -32,6 +33,7 @@ public class LE_GALL_EXO3 {
             System.out.println("Operande 2 : ");
             int Op2;
             Op2=sc.nextInt();
+            
             switch(Meth){
                 case 1 -> res=Op1+Op2 ;
                 
@@ -42,8 +44,9 @@ public class LE_GALL_EXO3 {
                 case 4 -> res=Op1/Op2 ;
                 
                 case 5 -> res=Op1%Op2 ;
-                
             }
+            
+            
             System.out.println("Result : " + res);
         }
     }
